@@ -3,77 +3,177 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Issu Thoughts</title>
-  <meta name="description" content="Thoughts, essays and write-ups by Issu.">
-  <link rel="stylesheet" href="styles.css">
+  <meta name="theme-color" content="#f6f1e8">
+  <title>Issu Thoughts — Essays, Reflections & Ideas</title>
+  <meta name="description" content="Issu Thoughts is a quiet corner of the internet for essays, reflections, ideas and longer write-ups.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <header class="site-header">
-    <div class="container">
-      <a href="index.html" class="logo">Issu Thoughts</a>
-      <nav>
-        <a href="index.html">Home</a>
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Issu Thoughts home">
+        <span>Issu</span> Thoughts
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" class="active">Home</a>
+        <a href="#writing">Writing</a>
         <a href="#about">About</a>
+        <a href="#support" class="nav-support">Support</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <!-- Hero -->
     <section class="hero">
-      <div class="container">
-        <h1>Issu Thoughts</h1>
-        <p class="tagline">Quiet reflections, essays, and write-ups.</p>
+      <div class="hero-rule" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <p class="eyebrow">ESSAYS · REFLECTIONS · IDEAS</p>
+        <h1>Thoughts worth<br><em>sitting with.</em></h1>
+        <p class="hero-copy">
+          A quiet corner of the internet for writing about life, people,
+          society, decisions, and the things that deserve a second thought.
+        </p>
+        <a href="#writing" class="text-link">
+          Explore the writing <span>↓</span>
+        </a>
       </div>
     </section>
 
-    <!-- Latest posts -->
-    <section class="posts">
-      <div class="container">
-        <h2 class="section-title">Latest</h2>
-
-        <article class="post-card">
-  <time datetime="2026-08-28">August 28, 2026</time>
-  <h3><a href="teacher-recruitment-backlog.html">They Promised Automatic Posting. The 2023 Teachers Are Still Waiting.</a></h3>
-  <p>They promised automatic posting of teachers when they were in opposition. The 2023 batch is still sitting at home while the government pretends the problem is solved.</p>
-  <a href="teacher-recruitment-backlog.html" class="read-more">Read →</a>
-</article>
-        
-        <article class="post-card">
-          <time datetime="2026-08-20">August 20, 2026</time>
-          <h3><a href="article.html">The Weight of Small Decisions</a></h3>
-          <p>We often think the big moments define us. In reality, the quiet choices we make every day shape who we become far more.</p>
-          <a href="article.html" class="read-more">Read →</a>
-        </article>
-
-        <!-- Add more post-cards here as you publish -->
-        <!--
-        <article class="post-card">
-          <time datetime="2026-08-28">August 28, 2026</time>
-          <h3><a href="posts/another-article.html">teacher-recruitment-backlog</a></h3>
-          <p>They Promised Automatic Posting. The 2023 Teachers Are Still Waiting.…</p>
-          <a href="posts/another-article.html" class="read-more">Read →</a>
-        </article>
-        -->
+    <section class="intro-strip">
+      <div class="container intro-grid">
+        <p class="intro-lead">
+          <span>01</span>
+          Writing without the noise.
+        </p>
+        <p>
+          No algorithms. No rush. Just honest words, carefully considered
+          and published one thought at a time.
+        </p>
       </div>
     </section>
 
-    <!-- About -->
-    <section id="about" class="about">
+    <section id="writing" class="writing-section">
       <div class="container">
-        <h2 class="section-title">About</h2>
-        <p>Issu Thoughts is a quiet corner of the internet where I share essays, reflections, and longer write-ups. No algorithms, no noise — just writing.</p>
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">THE JOURNAL</p>
+            <h2>Latest writing</h2>
+          </div>
+          <p class="section-note">Words from the desk of Issu.</p>
+        </div>
+
+        <div class="featured-post">
+          <div class="featured-number">01</div>
+          <div class="featured-content">
+            <div class="post-meta">
+              <time datetime="2026-08-28">August 28, 2026</time>
+              <span>·</span>
+              <span>Opinion</span>
+            </div>
+            <h3>
+              <a href="teacher-recruitment-backlog.html">
+                They Promised Automatic Posting.
+                <em>The 2023 Teachers Are Still Waiting.</em>
+              </a>
+            </h3>
+            <p>
+              They promised automatic posting of teachers when they were in
+              opposition. The 2023 batch is still sitting at home while the
+              government says the problem has been solved.
+            </p>
+            <a href="teacher-recruitment-backlog.html" class="read-link">
+              Read the essay <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="post-list">
+          <article class="post-row">
+            <div class="post-index">02</div>
+            <div class="post-row-main">
+              <div class="post-meta">
+                <time datetime="2026-08-20">August 20, 2026</time>
+                <span>·</span>
+                <span>Reflection</span>
+              </div>
+              <h3><a href="article.html">The Weight of Small Decisions</a></h3>
+              <p>
+                We often think the big moments define us. In reality, the
+                quiet choices we make every day shape who we become far more.
+              </p>
+            </div>
+            <a href="article.html" class="circle-arrow" aria-label="Read The Weight of Small Decisions">↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">ABOUT ISSU THOUGHTS</p>
+          <h2>A place for ideas to breathe.</h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            Issu Thoughts is a quiet corner of the internet where I share
+            essays, reflections, observations, and longer write-ups.
+          </p>
+          <p>
+            Some pieces are personal. Some are about society and public life.
+            Others begin with a simple question and refuse to leave until it
+            has been thought through.
+          </p>
+          <p class="signature">— Issu</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="support" class="support-section">
+      <div class="container">
+        <div class="support-card">
+          <div class="support-mark" aria-hidden="true">✦</div>
+          <div class="support-copy">
+            <p class="eyebrow">SUPPORT THE WRITING</p>
+            <h2>If these words mean something to you.</h2>
+            <p>
+              Issu Thoughts is built slowly, one piece at a time. If you enjoy
+              the writing and would like to support the work behind it, you can
+              make a contribution through Paystack.
+            </p>
+            <a
+              class="support-button"
+              href="https://paystack.shop/pay/Issu-thoughts"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Support Issu Thoughts <span>↗</span>
+            </a>
+            <small>Secure payment powered by Paystack.</small>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <p>© 2026 Issu Thoughts. All rights reserved.</p>
+    <div class="container footer-inner">
+      <div>
+        <a href="index.html" class="footer-logo">Issu Thoughts</a>
+        <p>Thoughts worth sitting with.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#writing">Writing</a>
+        <a href="#about">About</a>
+        <a href="#support">Support</a>
+      </div>
+      <p class="copyright">© 2026 Issu Thoughts</p>
     </div>
   </footer>
 </body>
-    </html>
+  </html>
